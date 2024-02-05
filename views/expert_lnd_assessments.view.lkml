@@ -166,8 +166,7 @@ view: expert_lnd_assessments {
   }
   dimension: time_taken {
     type: number
-    sql: ${TABLE}.time_taken
-    value_format: "h:mm:ss";;
+    sql: ${TABLE}.time_taken;;
   }
   dimension: user_email {
     type: string
